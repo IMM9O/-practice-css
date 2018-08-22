@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    font-size: 1.2rem;
+}
+
+header.container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+header.container > .header-video,
+header.container > .header-overlay,
+header.container > .header-content {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header.container > .header-video {
+  z-index: 100;
+}
+header.container > .header-video > video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+
+header.container > .header-overlay {
+  z-index: 200;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+header.container > .header-content {
+  z-index: 300;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+header.container > .header-content p {
+  text-align: center;
+  margin: 25px 0;
+}
+
+header.container > .header-content .btn {
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 1px solid #fff;
+  transition: all 0.4s linear 0.2s;
+}
+
+header.container > .header-content .btn:hover {
+  background-color: #fff;
+  color: #333;
+}
