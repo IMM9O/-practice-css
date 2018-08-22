@@ -1,0 +1,39 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  height: 60px;
+  color: #FFF;
+}
+
+.navbar.scrolled {
+  background-color: #fff;
+  transition: background-color 200ms linear;
+}
+
+.navbar.scrolled .navbar-brand {
+  color: #333 ;
+}
+
+.hero {
+  height: 500px;
+  /* background: linear-gradient(rgba(14, 27, 42,0.5), rgba(14, 27, 42, 0.5)), url(https://images.unsplash.com/photo-1533825141470-9c2740110f0f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5a27c17087938fd8d4972450bd5d4256&auto=format&fit=crop&w=1924&q=80)
+    no-repeat center center fixed;*/
+  background-image: linear-gradient(rgba(62, 74, 99, 0.5), rgba(62, 74, 99, 0.5)), url(http://photos.foodshot.co/foodshot0118_ebkdsbj-1.jpg?w=1042&h=695&dpr=2&q=80&crop=entropy&fit=crop);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  /* clip-path: polygon(0 0, 100% 0, 100% 88%, 85% 100%, 0 100%); */
+}
+
+.hero  .landing-text {
+  color: #fff;
+}
+
+.testimonials {
+    padding: 80px 0;
+}
