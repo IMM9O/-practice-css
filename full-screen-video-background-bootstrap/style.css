@@ -1,0 +1,21 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-size: 1.2rem;
+}
+header.header > .header-video {
+  z-index: 100;
+}
+header.header > .header-video > video {
+  object-fit: cover;
+}
+header.header > .header-overlay {
+  z-index: 200;
+  background: rgba(0, 0, 0, 0.4);
+}
+header.header > .header-content {
+  z-index: 300;
+}
