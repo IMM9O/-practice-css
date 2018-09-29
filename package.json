@@ -1,0 +1,27 @@
+{
+  "name": "templates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve:book": "parcel book-landing-page/index.html -d book-landing-page/output --cache-dir book-landing-page/cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IMM9O/templates.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IMM9O/templates/issues"
+  },
+  "homepage": "https://github.com/IMM9O/templates#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.1",
+    "sass": "^1.14.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  }
+}

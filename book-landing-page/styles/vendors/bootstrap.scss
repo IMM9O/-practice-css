@@ -1,0 +1,13 @@
+/** Override part **/
+
+$theme-colors: (
+  "primary":    #FF6464,
+  "secondary":  #69457A,
+  "success":    #F4C433,
+  "info":       #4056F4,
+  "warning":    #00A676,
+  "light":      #FFF,
+  "dark":       #333
+);
+// Import bootstrap
+@import './../../node_modules/bootstrap/scss/bootstrap.scss';
